@@ -1,13 +1,13 @@
 # 🎵 Projeto ETL - Biblioteca de Músicas
 
-Este projeto realiza um pipeline ETL (Extração, Transformação e Carga) sobre uma coleção de músicas de diferentes artistas e estilos, com o objetivo de gerar insights a partir das informações.
+Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento) sobre uma coleção de músicas de diferentes artistas e estilos, com o objetivo de gerar insights a partir das informações.
 
 ## 🗂️ Estrutura do projeto
 
 - 📁 `data/musicas.csv`: arquivo original com dados das músicas.
 - 📓 `notebooks/musica_etl_pipeline.ipynb`: notebook com o pipeline ETL, transformações e análises.
 - 📄 `output/musicas_tratadas.csv`: arquivo CSV gerado após as transformações.
-- 🖼️ `prints/´ – capturas de tela com os resultados e gráficos
+- 🖼️ `prints/` – capturas de tela com os resultados dos códigos e visualizações.
   
 ## 🔄 Pipeline ETL
 
