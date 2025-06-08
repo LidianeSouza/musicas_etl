@@ -29,7 +29,7 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 
 Os principais achados da análise exploratória estão no arquivo [`analises/insights.md`](analises/insights.md).
 
-## 📊 Exemplos Visuais
+## 📷 Exemplos Visuais
 
 ### Top 10 músicas mais visualizadas
 ![Top 10 músicas mais visualizadas - Código](prints/top_10_visualizacoes_1.png)
