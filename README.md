@@ -83,8 +83,8 @@ Os principais achados da análise exploratória estão no arquivo [`analises/ins
 
 3. Instale as dependências:
    ```bash
-  pip install -r requirements.txt
-  ```
+   pip install -r requirements.txt
+   ```
 
 4. Execute o notebook:
    ```bash
