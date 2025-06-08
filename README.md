@@ -25,9 +25,7 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 ### 🔄 Carregamento (Load)
 - Salvamento do arquivo tratado em CSV para uso posterior.
 
-## 🔍 Principais Insights
-
-## 📊 Insights
+## 💡 Insights
 
 Os principais achados da análise exploratória estão no arquivo [`analises/insights.md`](analises/insights.md).
 
