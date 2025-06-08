@@ -7,6 +7,7 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carga) sobre
 - 📁 `data/musicas.csv`: arquivo original com dados das músicas.
 - 📓 `notebooks/musica_etl_pipeline.ipynb`: notebook com o pipeline ETL, transformações e análises.
 - 📄 `output/musicas_tratadas.csv`: arquivo CSV gerado após as transformações.
+- 🖼️ `prints/´ – capturas de tela com os resultados e gráficos
   
 ## 🔄 Pipeline ETL
 
