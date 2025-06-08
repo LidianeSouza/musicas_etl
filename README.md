@@ -39,9 +39,35 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 ### Distribuição por ano de lançamento
 ![Distribuição ano de lançamento](prints/distribuicao_ano_lancamento.png)
 
+## 📦 Requisitos
+
+- Python 3.x
+- Jupyter Notebook
+- Bibliotecas: pandas, matplotlib, seaborn
+
 ## ▶️ Como executar
 
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seuusuario/musicas-etl.git
    cd musicas-etl
+
+2. (Opcional) Crie um ambiente virtual:
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+
+3. Instale as dependências:
+pip install -r requirements.txt
+
+4. Execute o notebook:
+jupyter notebook notebooks/musica_etl_pipeline.ipynb
+
+---
+✍️ Autor: Lidiane  
+🏠 GitHub: [LidianeSouza](https://github.com/LidianeSouza)
+📅 Projeto desenvolvido como parte do desafio DIO
+
+📄 Licença: MIT
+
+
