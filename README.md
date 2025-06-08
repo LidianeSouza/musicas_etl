@@ -9,11 +9,19 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 - 📄 `output/musicas_tratadas.csv`: arquivo CSV gerado após as transformações.
 - 🖼️ `prints/` – capturas de tela com os resultados dos códigos e visualizações.
   
-## 🔄 Pipeline ETL
+## ⚙️ Pipeline ETL
 
-- 📥 **Extração (Extract)**: dados em CSV com colunas como título, artista, gênero e avaliação
-- 🔧 **Transformação (Transform)**: limpeza, análise e enriquecimento dos dados
-- 📤 **Carregamento (Load)**: exportação para novo CSV ou visualização interativa
+### 📂 Extração (Extract)
+- Leitura dos dados a partir do CSV original.
+
+### ✏️ Transformação (Transform)
+- Padronização dos nomes das colunas.
+- Conversão da duração de segundos para minutos.
+- Formatação das visualizações em milhões (M) e bilhões (B).
+- Consultas como top 10 músicas mais visualizadas e contagem por gênero.
+
+### 🔄 Carregamento (Load)
+- Salvamento do arquivo tratado em CSV para uso posterior.
 
 ## 📊 Visualizações
 
