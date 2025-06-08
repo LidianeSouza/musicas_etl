@@ -4,12 +4,13 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 
 🎧 A seleção das músicas foi feita manualmente por mim, com base em preferências pessoais e interesse em analisar diferentes gêneros, artistas e níveis de popularidade.
 
-## 🗂️ Estrutura do projeto
+- ## 📁 Estrutura do Projeto
 
 - 📁 `data/musicas.csv`: arquivo original com dados das músicas.
 - 📓 `notebooks/musica_etl_pipeline.ipynb`: notebook com o pipeline ETL, transformações e análises.
 - 📄 `output/musicas_tratadas.csv`: arquivo CSV gerado após as transformações.
-- 🖼️ `prints/` – capturas de tela com os resultados dos códigos e visualizações.
+- 🖼️ `prints/`: capturas de tela com os resultados dos códigos e visualizações.
+- 🧠 `analises/insights.md`: arquivo contendo os principais insights obtidos a partir da análise dos dados.
   
 ## ⚙️ Pipeline ETL
 
