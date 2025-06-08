@@ -75,20 +75,21 @@ Os principais achados da análise exploratória estão no arquivo [`analises/ins
    cd musicas-etl
 
 2. (Opcional) Crie um ambiente virtual:
+  ```bash
   python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
-
+  source venv/bin/activate  # Mac/Linux
+  venv\Scripts\activate     # Windows
+  ```
 
 3. Instale as dependências:
    ```bash
   pip install -r requirements.txt
-  ````
+  ```
 
 4. Execute o notebook:
    ```bash
   jupyter notebook notebooks/musica_etl_pipeline.ipynb
-
+  ```
 ---
 ✍️ Autor: Lidiane  
 🏠 GitHub: [LidianeSouza](https://github.com/LidianeSouza)
