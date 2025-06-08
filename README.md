@@ -69,24 +69,30 @@ Os principais achados da análise exploratória estão no arquivo [`analises/ins
 
 ## ▶️ Como executar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/musicas-etl.git
-   cd musicas-etl
+## 🚀 Como Executar
 
-2. (Opcional) Crie um ambiente virtual:
+1. Clone o repositório:  
+    ```bash
+    git clone https://github.com/seuusuario/musicas-etl.git
+    cd musicas-etl
+    ```
 
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate     # Windows
+2. (Opcional) Crie um ambiente virtual:  
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Mac/Linux
+    venv\Scripts\activate     # Windows
+    ```
 
-  
+3. Instale as dependências:  
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-4. Instale as dependências:
-   pip install -r requirements.txt
-
-5. Execute o notebook:
-  jupyter notebook notebooks/musica_etl_pipeline.ipynb
+4. Execute o notebook:  
+    ```bash
+    jupyter notebook notebooks/musica_etl_pipeline.ipynb
+    ```
   
 ---
 ✍️ Autor: Lidiane  
