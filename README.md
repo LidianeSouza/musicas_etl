@@ -2,6 +2,8 @@
 
 Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento) sobre uma coleção de músicas de diferentes artistas e estilos, com o objetivo de gerar insights a partir das informações.
 
+🎧 A seleção das músicas foi feita manualmente por mim, com base em preferências pessoais e interesse em analisar diferentes gêneros, artistas e níveis de popularidade.
+
 ## 🗂️ Estrutura do projeto
 
 - 📁 `data/musicas.csv`: arquivo original com dados das músicas.
