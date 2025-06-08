@@ -31,6 +31,20 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 ### 🔄 Carregamento (Load)
 - Salvamento do arquivo tratado em CSV para uso posterior.
 
+## ⚙️ Principais Funções do Pipeline ETL
+
+- `carregar_dados(caminho)`: lê o arquivo CSV original e retorna o DataFrame com os dados das músicas.
+- `padronizar_colunas(df)`: padroniza os nomes das colunas para minúsculas e sem espaços.
+- `converter_duracao(df)`: converte a duração das músicas de segundos para minutos, criando uma nova coluna e removendo a original.
+- `formatar_visualizacoes(x)`: função auxiliar que formata números de visualizações em milhões (M) e bilhões (B).
+- `adicionar_visualizacoes_formatadas(df)`: aplica a formatação de visualizações e adiciona uma nova coluna ao DataFrame.
+- `ordenar_por_visualizacoes(df)`: ordena o DataFrame com base no número de visualizações, do maior para o menor.
+- `plotar_top_10_visualizacoes(df)`: gera um gráfico de barras com as 10 músicas mais visualizadas.
+- `filtrar_por_genero(df, genero)`: retorna as músicas filtradas por gênero musical.
+- `contar_musicas_por_ano(df)`: retorna a contagem de músicas por ano de lançamento.
+- `contar_musicas_por_genero(df)`: retorna a contagem de músicas por gênero.
+- `salvar_csv(df, caminho_saida)`: salva o DataFrame transformado em um arquivo CSV.
+
 ## 💡 Insights
 
 Os principais achados da análise exploratória estão no arquivo [`analises/insights.md`](analises/insights.md).
