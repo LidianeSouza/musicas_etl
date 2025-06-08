@@ -21,7 +21,12 @@ Este projeto realiza um pipeline ETL (Extração, Transformação e Carregamento
 - Padronização dos nomes das colunas.
 - Conversão da duração de segundos para minutos.
 - Formatação das visualizações em milhões (M) e bilhões (B).
+
+### 🧠 Análise (Analyze)
 - Consultas como top 10 músicas mais visualizadas e contagem por gênero.
+- Geração de insights a partir das transformações e estatísticas exploratórias.
+- Interpretação dos padrões encontrados (duração média, gêneros predominantes, ano com mais músicas, etc.).
+- Resultados documentados no arquivo `analises/INSIGHTS.md`.
 
 ### 🔄 Carregamento (Load)
 - Salvamento do arquivo tratado em CSV para uso posterior.
