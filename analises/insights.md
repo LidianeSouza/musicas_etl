@@ -1,4 +1,4 @@
-## Insights do Projeto
+## 💡 Insights do Projeto
 
 - 🎶 **Música mais visualizada**: A música mais visualizada da lista é **"Rolling in the Deep"** da **Adele**, com **2.6 bilhões** de visualizações no YouTube — destacando seu enorme impacto global.  
 - 📈 **Ano com maior número de músicas**: O ano com maior número de músicas listadas é **2003**, com destaque para o gênero **Rock** — refletindo um período marcante para esse estilo musical.  
